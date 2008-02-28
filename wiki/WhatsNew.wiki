@@ -1,0 +1,12 @@
+#summary Notifications of what's in the most recent update
+= What's New =
+
+== February 27, 2008 ==
+Well, this is our first release.  Everything's new.
+
+For those who may have followed earlier releases, though: 
+  # we get better information for search results, 
+  # we spent a lot of time on cross-browser look-and-feel considerations, including
+  # The URL syntax was re-done, to be parenthetical (i.e. "_p(google-docreader)_") instead 
+of key=values (the old "_p=google-docreader_") because GWT and browser both insisted on
+escaping characters like equals, comma, and apersand.
