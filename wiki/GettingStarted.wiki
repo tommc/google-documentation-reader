@@ -69,3 +69,26 @@ the breadcrumbs to the page provide a link not only to the result page with
 your search term, but to other containing sections as well.
 
 [http://google-documentation-reader.googlecode.com/svn/wiki/images/searchres.png]
+
+= Using the Index =
+
+In many respects, the index is just a collection of what the authors of the
+various projects' documentation thought might be useful search terms.  When 
+you select the Index tab in the navigation area, you see a list of index links,
+and clicking one of those will run a search for that term exactly as though you
+had typed it into the search box in the header area.
+
+Given this equivalence, the primary value of the index is precisely that it
+can _suggest_ search terms.  If you are looking for a concept, but really just
+don't know what it is called, try looking in the index.  At the very least,
+you may find something interesting or something that you're not sure what is, 
+even if you _do_ have some ideas of search terms for a free-text search!
+
+The box labelled "Filter" above the keywords is useful when you have a very
+large index, especially one from multiple projects merged together.  If you
+type something in the filter box, the index list will adjust to show only 
+those index terms containing the string you have typed, as shown below.  To get
+back to the entire list, just delete the filter string.
+
+[http://google-documentation-reader.googlecode.com/svn/wiki/images/indexfilter.png]
+
