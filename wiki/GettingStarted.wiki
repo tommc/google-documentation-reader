@@ -1,9 +1,9 @@
 #summary Quick tour of the DocReader interface and how to navigate in it.
 = Introduction =
 Google !DocReader is inteneded to provide a great interface for technical users browsing technical documentation.  In addition to the free search navigation you would expect from Google, it offers traditional table-of-contents and index keyword navigation.  Moreover, it is convenient:
-  * for project owners, it is easy to set projects up for use in !DocReader,
-  * for authors, it is easy to write, edit, and organize documentation pages, and most of all
-  * for readers, it is easy not only to navigate the documentation of a given project, but also to collect documentation on a set of projects, to build a customize "reference library" of exactly the materials you actually use.  Searches are confined to this set of documentation, neither showing non-documentation results nor results from irrelevant projects.
+  * [TipsForAuthors for project owners], it is easy to set projects up for use in !DocReader,
+  * [TipsForAuthors for authors], it is easy to write, edit, and organize documentation pages, and most of all
+  * [TipsForReaders for readers], it is easy not only to navigate the documentation of a given project, but also to collect documentation on a set of projects, to build a customize "reference library" of exactly the materials you actually use.  Searches are confined to this set of documentation, neither showing non-documentation results nor results from irrelevant projects.
 
   
 = The screen =
