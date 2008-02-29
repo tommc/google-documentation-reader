@@ -1,0 +1,20 @@
+#summary index terms for documentation reader
+
+  * Author
+  * Contents
+  * Header
+  * Index
+  * Keyboard
+  * Link, external
+  * Markup
+  * Navigation
+  * Project
+  * Reader
+  * Search
+  * TableOfContents
+  * Table of Contents
+  * URL 
+  * URL format
+  * Viewing area
+  * Wiki
+  * Wiki markup
