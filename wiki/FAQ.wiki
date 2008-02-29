@@ -1,0 +1,6 @@
+#summary Frequently asked questions about the documentation reader
+
+  * *Q.* Search results aren't including some of my recent content.  Why?
+    * *A.* The documentation reader uses Google search, and it can take as long as several days for new pages to be "found" and indexed by the search engine.
+  * *Q.* Can I mix documents from other places on the web, not code.google.com, into the documentation reader?
+    * *A.* No.  You can link to anywhere you want, but only from pages on code.google.com.  
