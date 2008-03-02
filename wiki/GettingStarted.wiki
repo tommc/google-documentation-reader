@@ -4,9 +4,9 @@ The documentation reader is intended to provide a great interface for technical 
 browsing wiki documentation in Google Code project hosting.  In addition to the free search navigation
 you would expect from Google, it offers traditional table-of-contents and index
 keyword navigation.  Moreover, it is convenient:
-  * [TipsForAuthors for project owners], it is easy to set projects up for use in !DocReader,
+  * [TipsForAuthors for project owners], it is easy to set projects up for use in the documentation reader,
   * [TipsForAuthors for authors], it is easy to write, edit, and organize documentation pages, and most of all
-  * [TipsForReaders for readers], it is easy not only to navigate the documentation of a given project, but also to collect documentation on a set of projects, to build a customize "reference library" of exactly the materials you actually use.  Searches are confined to this set of documentation, neither showing non-documentation results nor results from irrelevant projects.
+  * [TipsForReaders for readers], it is easy not only to navigate the documentation of a given project, but also to collect documentation on a set of projects, to build a customized "reference library" of exactly the materials you actually use.  Searches are confined to this set of documentation, neither showing non-documentation results nor results from irrelevant projects.
 
   
 = The screen =
@@ -16,9 +16,7 @@ left-side navigation bar with tabs for "Contents" and "Index," and the main
 viewing area.  Let's take a look at each in turn.
 
 First of all, in the header area, the "Help" link shows a pop-up of the various
-keyboard shortcuts.  It is possible use keystrokes to do anything !DocReader 
-can do... a small point, perhaps, but one that can make an experienced user far
-faster and more productive.  (To say nothing of the assistance to disabled 
+keyboard shortcuts.  It is possible to use the keyboard to do anything in the documentation reader... a small point, perhaps, but one that can make an experienced user far faster and more productive.  (To say nothing of the assistance to disabled 
 users!)
 
 [http://google-documentation-reader.googlecode.com/svn/wiki/images/headerbar.png]
