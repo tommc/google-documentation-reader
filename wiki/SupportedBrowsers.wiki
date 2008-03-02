@@ -1,6 +1,6 @@
 #summary Notes on which browser configurations are supported, and any browser-specific caveats
 
-We expect the Google documentation reader to work, and to work well, for any modern browser.  We specifically test with:
+We expect the documentation reader to work with any modern browser.  We specifically test with:
   * Internet Explorer 6 (Windows)
   * Internet Explorer 7 (Windows)
   * Firefox 1.5 (Linux, Mac, and Windows)
