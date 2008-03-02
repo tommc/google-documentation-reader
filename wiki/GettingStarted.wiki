@@ -1,7 +1,7 @@
-#summary Quick tour of the DocReader interface and how to navigate in it.
+#summary Quick tour of the documentation reader interface and how to navigate in it.
 = Introduction =
-Google !DocReader is inteneded to provide a great interface for technical users
-browsing technical documentation.  In addition to the free search navigation
+The documentation reader is intended to provide a great interface for technical users
+browsing wiki documentation in Google Code project hosting.  In addition to the free search navigation
 you would expect from Google, it offers traditional table-of-contents and index
 keyword navigation.  Moreover, it is convenient:
   * [TipsForAuthors for project owners], it is easy to set projects up for use in !DocReader,
@@ -91,4 +91,3 @@ those index terms containing the string you have typed, as shown below.  To get
 back to the entire list, just delete the filter string.
 
 [http://google-documentation-reader.googlecode.com/svn/wiki/images/indexfilter.png]
-
