@@ -1,10 +1,10 @@
-#summary TOC for documentation about DocReader
+#summary TOC for documentation about the documentation reader
 
 = Introduction =
 
-Google's documentation reader provides an easy way to organize technical reference documentation.  It works by allowing the members of projects on code.google.com to organize their documentation as wiki pages, and then allowing users to collect documentation from the set of projects they care about into one, custom "reference library."
+The documentation reader provides an easy way to organize technical reference documentation.  It works by allowing the members of projects on code.google.com to organize their documentation as wiki pages, and then allowing users to collect documentation from the set of projects they care about into one, custom "reference library."
 
-  * [WhatsNew What's new in Google documentation reader]
+  * [WhatsNew What's new in the documentation reader]
   * [GettingStarted Getting started]
   * [TipsForReaders For readers: getting the most out of the documentation reader]
   * [TipsForAuthors For authors: how your projects can use the documentation reader]
