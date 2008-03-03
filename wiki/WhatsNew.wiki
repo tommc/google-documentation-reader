@@ -2,7 +2,7 @@
 = What's New =
 
 == February 27, 2008 ==
-This is our first release, so basically...everything's new! We can offer some useful starting points, though.
+This is our first release, so...everything's new! We can offer some useful starting points, though.
 
 === For Readers ===
   * The 'h' key reveals a keyboard help reminder. The rest of the shortcut keys are described there.
