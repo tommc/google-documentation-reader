@@ -3,6 +3,5 @@
 We expect the documentation reader to work with any modern browser.  We specifically test with:
   * Internet Explorer 6 (Windows)
   * Internet Explorer 7 (Windows)
-  * Firefox 1.5 (Linux, Mac, and Windows)
   * Firefox 2.0 (Linux, Mac, and Windows)
-  * Safari 2 (Mac)
+  * Safari 3 (Mac)
