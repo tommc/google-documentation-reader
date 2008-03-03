@@ -2,11 +2,14 @@
 = What's New =
 
 == February 27, 2008 ==
-Well, this is our first release.  Everything's new.
+This is our first release, so basically...everything's new! We can offer some useful starting points, though.
 
-For those who may have followed earlier releases, though: 
-  # we get better information for search results, 
-  # we spent a lot of time on cross-browser look-and-feel considerations, including
-  # The URL syntax was re-done, to be parenthetical (i.e. "_p(google-docreader)_") instead 
-of key=values (the old "_p=google-docreader_") because GWT and browser both insisted on
-escaping characters like equals, comma, and apersand.
+=== For Readers ===
+  * The 'h' key reveals a keyboard help reminder. The rest of the shortcut keys are described there.
+  * You can bookmark a topic at any time using your browser's normal "bookmark" command.
+  * External links are designed with a small arrow. Following such links will navigate you away from the documentation view, but you can return easily by simply using normal browser navigation (back button, history, etc.).
+  * You can view multiple set of documentation together in a single view by including multiple projects in a [UrlFormat custom URL].
+
+=== For Authors ===
+  * To make your project viewable with the documentation viewer, simply add a wiki page named `TableOfContents`. To add index terms, add a wiki page named `Index`. 
+  * If you are signed into a project whose doc you are viewing, topics will have an "Edit" link, making it easy to edit the wiki page underlying each topic.
