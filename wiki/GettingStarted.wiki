@@ -66,7 +66,7 @@ give the actual title of the page rather than the wiki word of its entry, and
 the breadcrumbs to the page provide a link not only to the result page with
 your search term, but to other containing sections as well.
 
-[http://google-documentation-reader.googlecode.com/svn/wiki/images/searchres.png]
+[http://google-documentation-reader.googlecode.com/svn/wiki/images/search-screenshot.png]
 
 = Using the Index =
 
