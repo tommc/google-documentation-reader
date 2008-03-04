@@ -1,5 +1,5 @@
 #summary Quick tour of the documentation reader interface and how to navigate in it.
-= Introduction =
+= Getting Started =
 The documentation reader is intended to provide a great interface for technical users
 browsing wiki documentation in Google Code project hosting.  In addition to the free search navigation
 you would expect from Google, it offers traditional table-of-contents and index
