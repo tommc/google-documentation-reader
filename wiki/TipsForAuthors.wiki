@@ -1,5 +1,7 @@
 #summary Tips for getting the most of of the documentation reader as a producer.
 
+=Tips for Authors=
+
 Maybe you're convinced by now that the documentation reader is, if not the greatest thing since sliced bread, at least pretty useful.  How can you start using it for _your_ docs?  It turns out to be pretty easy.
 
 Your project must be hosted on code.google.com, of course.  You may already be using the Wiki feature for your project; that is the "backing store" behind the documentation reader.  Every page viewed by the reader is actually just a wiki page.  But you can also have other, non-documentation wiki pages, and you need a way to organize the loose pile of wiki entries into coherent documentation.  For that, you need to define a special wiki page named !TableOfContents.  That is the _only_ new requirement to use the documentation reader.
