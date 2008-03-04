@@ -11,5 +11,5 @@ This is our first release, so...everything's new! We can offer some useful start
   * You can view multiple set of documentation together in a single view by including multiple projects in a [UrlFormat custom URL].
 
 === For Authors ===
-  * To make your project viewable with the documentation viewer, simply add a wiki page named `TableOfContents`. To add index terms, add a wiki page named `Index`. 
+  * To make your project viewable with the documentation viewer, simply add a wiki page named `TableOfContents`. To add index terms, add a wiki page named `Index`. [TipsForAuthors (Details)]
   * If you are signed into a project whose doc you are viewing, topics will have an "Edit" link, making it easy to edit the wiki page underlying each topic.
