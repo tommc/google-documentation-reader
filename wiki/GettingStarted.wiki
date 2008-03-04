@@ -16,8 +16,7 @@ left-side navigation bar with tabs for "Contents" and "Index," and the main
 viewing area.  Let's take a look at each in turn.
 
 First of all, in the header area, the "Help" link shows a pop-up of the various
-keyboard shortcuts.  It is possible to use the keyboard to do anything in the documentation reader... a small point, perhaps, but one that can make an experienced user far faster and more productive.  (To say nothing of the assistance to disabled 
-users!)
+keyboard shortcuts.  It is possible to use the keyboard to do anything in the documentation reader...a small point, perhaps, but one that can make an experienced user far faster and more productive.
 
 [http://google-documentation-reader.googlecode.com/svn/wiki/images/headerbar.png]
 
