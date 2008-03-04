@@ -1,6 +1,6 @@
 #summary Tips for getting the most of of the documentation reader as a producer.
 
-=For Authors=
+=Authoring Documentation=
 
 Maybe you're convinced by now that the documentation reader is, if not the greatest thing since sliced bread, at least pretty useful.  How can you start using it for _your_ docs?  It turns out to be pretty easy.
 
