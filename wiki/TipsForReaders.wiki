@@ -1,5 +1,7 @@
 #summary How to make the most of the documentation reader as a user
 
+=Tips for Readers=
+
 As a user, the documentation reader should feel familiar, analogous to other systems' libraries and help facilities that you may have used.  We hope that it will have performance comparable to local storage options, while offering the most up-to-date convenience of on-line systems.  The most significant difference, however, is probably the ability to select a set of multiple projects' documentation, for an all-in-one reference collection.
 
 Because of this, you shouldn't be afraid to [UrlFormat make your own URLs] to mix-and-match the projects you use often.  Bookmark that, share it with your friends, etc.  At some point, we may expand the feature to include more "social networking" functions to help do that automatically, but that would add a lot more per-user tracking to code.google.com, which takes time; we're not sure yet whether it's better to put that time on that or on other ideas.
