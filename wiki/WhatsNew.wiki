@@ -1,5 +1,5 @@
 #summary Notifications of what's in the most recent update
-= What's New =
+= What's New? =
 
 == February 27, 2008 ==
 This is our first release, so...everything's new! We can offer some useful starting points, though.
