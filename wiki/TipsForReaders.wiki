@@ -1,6 +1,6 @@
 #summary How to make the most of the documentation reader as a user
 
-=For Readers=
+=Reading Documentation=
 
 As a user, the documentation reader should feel familiar, analogous to other systems' libraries and help facilities that you may have used.  We hope that it will have performance comparable to local storage options, while offering the most up-to-date convenience of on-line systems.  The most significant difference, however, is probably the ability to select a set of multiple projects' documentation, for an all-in-one reference collection.
 
