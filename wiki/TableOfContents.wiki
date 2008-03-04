@@ -4,11 +4,11 @@
 
 The documentation reader provides an easy way to organize technical reference documentation.  It works by allowing the members of projects on code.google.com to organize their documentation as wiki pages, and then allowing users to collect documentation from the set of projects they care about into one, custom "reference library."
 
-  * [WhatsNew What's new?]
-  * [GettingStarted Getting started]
-  * [TipsForReaders For readers]
-  * [TipsForAuthors For authors]
-  * Technical notes
-     * [UrlFormat URL format]
-     * [SupportedBrowsers Supported browsers]
+  * [WhatsNew What's New?]
+  * [GettingStarted Getting Started]
+  * [TipsForReaders Tips For Readers]
+  * [TipsForAuthors Tips For Authors]
+  * Technical Notes
+     * [UrlFormat URL Format]
+     * [SupportedBrowsers Supported Browsers]
   * [FAQ FAQ]
