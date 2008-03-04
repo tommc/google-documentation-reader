@@ -38,6 +38,7 @@ reader URL:
 ||    q       || "query" term           || at most one of i, q, or t   || no ||
 ||    s       || "selected" project     || yes if multiple projects    || no ||
 ||    t       || "topic" wikiword or header string || at most one of i, q, or t || no ||
+
 = Examples =
 
   * Minimally, it is valid to just use http://code.google.com/docreader/, with no #-part.  The default project ({{{p}}}) is "google-documentation-reader," with only one project there is no need for a selected project ({{{s}}}), as it must also be google-documentation-reader, and the default topic ({{{t}}}) is the selected project's name.  "Topic" URLs don't need a cursor ({{{c}}}), and the default locale is specified by the browser/server negotiation.
@@ -48,4 +49,3 @@ reader URL:
   * If you want to pick a more specific (and perhaps directly useful!) topic and get the URL for that, perhaps to post or e-mail for others, change the {{{t}}}  property: http://code.google.com/docreader/#p(google-web-toolkit-incubator)t(GlassPanel)
   * If you want, instead, to bookmark a query, use {{{q}}} instead of {{{t}}}: http://code.google.com/docreader/#p(google-web-toolkit)p(google-web-toolkit-incubator)s(google-web-toolkit)q(Panel)
     * If there are many results, you may also want to use {{{c}}} to bookmark a point several pages into the search results.  However, this is usually ill-advised: the number and order of search results may change over time, and more or fewer matches are available.  It's better to treat {{{c}}} as a transient property the documentation reader needs but you should ignore.
-
