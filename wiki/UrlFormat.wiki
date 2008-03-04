@@ -43,7 +43,7 @@ reader URL:
 
   * Minimally, it is valid to just use http://code.google.com/docreader/, with no #-part.  The default project ({{{p}}}) is "google-documentation-reader," with only one project there is no need for a selected project ({{{s}}}), as it must also be google-documentation-reader, and the default topic ({{{t}}}) is the selected project's name.  "Topic" URLs don't need a cursor ({{{c}}}), and the default locale is specified by the browser/server negotiation.
     * Equivalently, we could fully specify all of that: http://code.google.com/docreader/#p(google-documentation-reader)s(google-documentation-reader)t(google-documentation-reader)
-    * Also equivalent, we could leave out the selected project, since there is only one: http://code.google.com/docreader/#p(google-documentation-reader)t(google-documentation-reader)
+    * Also equivalently, we could leave out the selected project, since there is only one: http://code.google.com/docreader/#p(google-documentation-reader)t(google-documentation-reader)
   * If you want to look at all Google's GWT documentation, you need multiple {{{p}}} terms: http://code.google.com/docreader/#p(google-web-toolkit)p(google-web-toolkit-incubator)p(gwt-google-apis).  
     * That URL didn't specify {{{s}}} or {{{t}}}, so it will default to the first project name, like: http://code.google.com/docreader/#p(google-web-toolkit)p(google-web-toolkit-incubator)p(gwt-google-apis)s(google-web-toolkit)t(google-web-toolkit)
   * If you want to pick a more specific (and perhaps directly useful!) topic and get the URL for that, perhaps to post or e-mail for others, change the {{{t}}}  property: http://code.google.com/docreader/#p(google-web-toolkit-incubator)t(GlassPanel)
