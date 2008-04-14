@@ -3,26 +3,22 @@
 = URL Format =
 
 All URLs for documentation reader pages begin with 
-"http://code.google.com/docreader/", and most then have a "#" character 
-followed by a bunch of stuff to specify what it is you want to view.  This
-section explains that encoding, and how you can construct URLs to precisely
-what you want to see.  (Yes, we expect this process to get easier in future 
-releases, but it's still helpful to understand what's "really" going on.)
+"http://code.google.com/docreader/", and usually then have a "#" character 
+followed by a bunch of stuff to specify what you want to view.  This
+section explains what it all means, and how you can construct URLs to specify
+what you want to see.  We expect this process to get easier in future 
+releases, but it's still helpful to understand what's "really" going on.
 
 = The Encoding Schema =
 
-First, experienced folk may notice that the text does not follow the usual 
-HTTP scheme of {{{param1=value1&param2=value2}}}.  That is the encoding for the
-query parameters (after ?), but it turns out that some browsers want to
-"escape" the punctuation (equals and ampersands, but also other useful 
-characters like commas), resulting in a very unreadable mash.  So we wanted to
-come up with something more readable, using only the very few characters that
-aren't escaped.
-
-So, instead, our properties take the form {{{param(value)}}}, and are additive.
+Our properties take the form {{{param(value)}}}, and are additive.
 So if you have {{{p(google-web-toolkit)p(google-web-toolkit-incubator)}}}, that
 means that the parameter {{{p}}} (which happens to be the projects to display)
 is a list of two values, google-web-toolkit and google-web-toolkit-incubator.
+
+Experienced web gurus may notice that the text does not follow the usual 
+HTTP scheme of {{{param1=value1&param2=value2}}}.  That is the encoding for the
+query parameters (after ?), but some browsers "escape" the punctuation, resulting in a very unreadable mash.  So we wanted to come up with something more readable, using only the very few characters that aren't escaped after a "#" character.
 
 With that as background, we're ready to discuss the set of properties the
 documentation reader uses.
@@ -33,21 +29,17 @@ The following table outlines the properties you may have in a documentation
 reader URL:
 
 || *Property* || *Value*                || *Required?*        || *Multiple?* ||
-||    c       || "cursor" search string || no, default to first result || no ||
-||    i       || "index" query term     || at most one of i, q, or t   || no ||
-||  locale    || locale string          || no (and currently unused)   || no ||
 ||    p       || "project" name         || no (default to google-documentation-reader) || yes ||
-||    q       || "query" term           || at most one of i, q, or t   || no ||
 ||    s       || "selected" project     || yes if multiple projects    || no ||
 ||    t       || "topic" wikiword or header string || at most one of i, q, or t || no ||
-
+||    i       || "index" query term     || at most one of i, q, or t   || no ||
+||    q       || "query" term           || at most one of i, q, or t   || no ||
+||  locale    || locale string          || no (and currently unused)   || no ||
 = Examples =
 
-  * Minimally, it is valid to just use http://code.google.com/docreader/, with no #-part.  The default project ({{{p}}}) is "google-documentation-reader," with only one project there is no need for a selected project ({{{s}}}), as it must also be google-documentation-reader, and the default topic ({{{t}}}) is the selected project's name.  "Topic" URLs don't need a cursor ({{{c}}}), and the default locale is specified by the browser/server negotiation.
+  * Minimally, it is valid to just use http://code.google.com/docreader/, with no #-part.  The default project ({{{p}}}) is "google-documentation-reader," with only one project there is no need for a selected project ({{{s}}}), as it must also be google-documentation-reader, and the default topic ({{{t}}}) is the selected project's name.
     * Equivalently, we could fully specify all of that: http://code.google.com/docreader/#p(google-documentation-reader)s(google-documentation-reader)t(google-documentation-reader)
-    * Also equivalently, we could leave out the selected project, since there is only one: http://code.google.com/docreader/#p(google-documentation-reader)t(google-documentation-reader)
   * If you want to look at all of the Google Web Toolkit documentation, you would use multiple {{{p}}} terms: http://code.google.com/docreader/#p(google-web-toolkit)p(google-web-toolkit-incubator)p(gwt-google-apis).  
     * That URL didn't specify {{{s}}} or {{{t}}}, so it will default to the first project name, like: http://code.google.com/docreader/#p(google-web-toolkit)p(google-web-toolkit-incubator)p(gwt-google-apis)s(google-web-toolkit)t(google-web-toolkit)
   * If you want to pick a more specific (and perhaps directly useful!) topic and get the URL for that, perhaps to post or e-mail for others, change the {{{t}}}  property: http://code.google.com/docreader/#p(google-web-toolkit-incubator)t(GlassPanel)
   * If you want, instead, to bookmark a query, use {{{q}}} instead of {{{t}}}: http://code.google.com/docreader/#p(google-web-toolkit)p(google-web-toolkit-incubator)s(google-web-toolkit)q(Panel)
-    * If there are many results, you may also want to use {{{c}}} to bookmark a point several pages into the search results.  However, this is usually ill-advised: the number and order of search results may change over time, and more or fewer matches are available.  It's better to treat {{{c}}} as a transient property the documentation reader needs but you should ignore.
