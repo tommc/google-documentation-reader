@@ -6,6 +6,7 @@ The documentation reader provides an easy way to organize technical reference do
 
   * [WhatsNew What's New?]
   * [GettingStarted Getting Started]
+  * OfflineSupport
   * [TipsForReaders For Readers]
   * [TipsForAuthors For Authors]
   * Technical Notes
