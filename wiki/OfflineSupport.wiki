@@ -7,3 +7,5 @@ With the upcoming release of Google Code documentation reader, you'll be able to
 = What? =
 
 Really! Just install [http://gears.google.com Google Gears], load up the documentation you want to save, and hit "Offline". Soon you'll have a local, searchable, browseable copy of all your important docs! Then, when you're back on the Internet, hit "Go online" and act like nothing happened.
+
+= Okay! =
