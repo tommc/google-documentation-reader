@@ -10,6 +10,7 @@ Your project must be hosted on code.google.com, of course. You may already be us
 The !TableOfContents page on your wiki should have a nested structure of bulleted lists (using the space-indented "{{{*}}}" wiki markup). It may also have some preamble text if you want it to; you may choose to view it on its own, or include it in your Table of Contents! Each entry in the nested list is an entry in the table of contents; the list nesting defines sections and sub-sections. Here's an example !TableOfContents for a fictional project, which has wiki pages !Introduction !WhyUse, !GettingStarted, !HowItWorks, !NonStandardSupport, and !FAQ. Note that "Technical Notes" is just the header for a section, not a wiki page.
 
 {{{
+$PP_OFF
 #summary TOC for the FooBar WhizBang
 
 = Introduction =
