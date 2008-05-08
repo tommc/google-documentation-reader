@@ -4,10 +4,25 @@
 
 Maybe you're convinced by now that the documentation reader is, if not the greatest thing since sliced bread, at least pretty useful.  How can you start using it for _your_ docs?  It turns out to be pretty easy.
 
-Your project must be hosted on code.google.com, of course.  You may already be using the Wiki feature for your project; that is the "backing store" behind the documentation reader.  Every page viewed by the reader is actually just a wiki page.  But you can also have other, non-documentation wiki pages, and you need a way to organize the loose pile of wiki entries into coherent documentation.  For that, you need to define a special wiki page named !TableOfContents.  That is the _only_ new requirement to use the documentation reader.
+Your project must be hosted on code.google.com, of course. You may already be using the Wiki feature for your project, that's great! All of the pages that you'll display with the documentation reader are stored in your project wiki. But you can also have other wiki pages that aren't for documentation (maybe planning, or scratch space), and you need a way to organize the loose pile of wiki entries into a coherent structure. For that, you can define a special wiki page named !TableOfContents.
 
-= !TableOfContents: defining the documentation set =
-The !TableOfContents may have some preamble text if you want it to (sometimes users could choose to view it as a documentation page on its own!), but the main focus is a nested structure of bulleted lists (using the space-indented "{{{*}}}" wiki markup).  Each entry in that nested list is an entry in the table of contents; the list nesting defines sections and sub-sections.  
+= !TableOfContents: providing documentation structure =
+The !TableOfContents page on your wiki should have a nested structure of bulleted lists (using the space-indented "{{{*}}}" wiki markup). It may also have some preamble text if you want it to; you may choose to view it on its own, or include it in your Table of Contents! Each entry in the nested list is an entry in the table of contents; the list nesting defines sections and sub-sections. Here's an example !TableOfContents for a fictional project, which has wiki pages !Introduction !WhyUse, !GettingStarted, !HowItWorks, !NonStandardSupport, and !FAQ. Note that "Technical Notes" is just the header for a section, not a wiki page.
+
+{{{
+#summary TOC for the FooBar WhizBang
+
+= Introduction =
+FooBar WhizBang is an integrated solution for developing things. It supports most standards, and will likely make you more popular.
+
+  * [Introduction Introduction to WhizBang]
+    * [WhyUse Why use WhizBang?]
+    * [GettingStarted Getting Started with WhizBang]
+  * Technical Notes
+     * [HowItWorks How does WhizBang work?]
+     * [NonStandardSupport Support for nonstandard situations]
+  * [FAQ FAQ]
+}}}
 
 In general, table of content entries will be links, using markup syntax like this:
 
@@ -21,13 +36,11 @@ Which will, as the title suggests, make an entry which is the heading of a colle
 
 = Index: sugesting search terms =
 
-The other special wiki entry is named Index.  This is an optional entry, but if present, should be a flat bulleted list of index terms.  The documentation reader will collect and collate the index terms for all the projects displayed; when a user selects an index terms, the reader will search for any pages containing that term and  display the results.  This is essentially equivalent to the user typing a search keyword, but may be useful if the user doesn't know what term to search for, or if the user is (as some of us do) browsing the index itself for interesting items.
+The other special wiki entry is named Index.  This is an optional entry, but if present, should be a flat bulleted list of index terms.  The documentation reader will collect and collate the index terms for all the projects displayed; when a user selects an index terms, the reader will search for any pages containing that term and  display the results.  This is equivalent to the user typing a search keyword, but may be useful if the user doesn't know what term to search for, or if the user is (as some of us do) browsing the index itself for interesting items.
 
 = Editing content =
 
-When a project member is using the documentation reader, it will note that they have write permissoins, and display an "Edit" link near the top-right, next to the Print icon, when users are viewing pages from your project.  When they view pages from other projects, of coures, the link may not appear.
-
-Clicking on the Edit link brings the user to the wiki editing page for that topic, allowing a rapid find/edit/save cycle to fix documentation errors and to update for advances in your project.
+Project members browsing documentation that they have writes to edit will see an "Edit" link will appear on the top-right of the interface, next to the Print icon. Clicking on the Edit link brings the user to the wiki editing page for that topic, allowing a rapid find/edit/save cycle to fix documentation errors and to update for advances in your project.
 
 = Reorganizing content =
 
