@@ -6,7 +6,7 @@
 
 You can use the documentation reader with other Google Code projects too! For any project hosted on Google Code that has a wiki, just head over to {{{http://code.google.com/docreader/#p(your-project)}}}.
 
-And if you have your own project on Google Code, it's quick and easy to [http://code.google.com/docreader/#p(google-documentation-reader)t(ForAuthors) spruce up your table of contents and index] for use with the documentation reader.
+And if you have your own project on Google Code, it's quick and easy to [http://code.google.com/docreader/#p(google-documentation-reader)t(TipsForAuthors) spruce up your table of contents and index] for use with the documentation reader.
 
 == February 27, 2008 ==
 This is our first release, so...everything's new! We can offer some useful starting points, though.
