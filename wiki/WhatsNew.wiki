@@ -2,7 +2,7 @@
 = What's New for Google Code documentation reader? =
 
 == May 15, 2008 ==
-[http://code.google.com/doctype Google Doctype] is now live and using the documentation reader. Welcome, Doctype users :)
+[http://code.google.com/doctype Google Doctype] is now live and using the documentation reader! Welcome, Doctype users :)
 
 You can use the documentation reader with other Google Code projects too! For any project hosted on Google Code that has a wiki, just head over to {{{http://code.google.com/docreader/#p(your-project)}}}.
 
