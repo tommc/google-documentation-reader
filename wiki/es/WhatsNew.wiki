@@ -1,5 +1,5 @@
 ﻿#summary Lo nuevo para Google Code documentation reader
-= Lo Nuevo para Google Code documentation reader? =
+= Lo nuevo para Google Code documentation reader =
 
 == 15 Mayo 2008 ==
 [http://code.google.com/doctype Google Doctype] está vivo.
