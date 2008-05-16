@@ -6,8 +6,7 @@
 
 También, se puede usar ¨documentation reader" con cualquier proyecto ubicado en Google Code. Solamente visita Ud. {{{http://code.google.com/docreader/#p(cualquier-proyecto)}}}.
 
-Si tiene Ud. su propio proyecto de Google Code, posiblemente sería útil visitar
-las instrucciones para aútores [http://code.google.com/docreader/#p(google-documentation-reader)s(google-documentation-reader)t(TipsForAuthors) aquí].
+Si tiene usted su propio proyecto de Google Code, posiblemente sería útil visitar las instrucciones para aútores [http://code.google.com/docreader/#p(google-documentation-reader)s(google-documentation-reader)t(TipsForAuthors) aquí].
 
 == 27 Febrero 2008 ==
-Bienvenidos todos :)
+¡Bienvenidos todos!
