@@ -1,0 +1,2 @@
+#summary docreader display name for docreader
+Google Code documentation reader
