@@ -36,7 +36,7 @@ This will create a section titled "Title for Wiki Word entry," and linking to th
 
 Which will, as the title suggests, make an entry which is the heading of a collection of ohter entries, but for which there is no content in the wiki.  To display these nodes, the documentation reader will create a page that consists only of the title and a list of the available children.
 
-== Index: sugesting search terms ==
+== Index: suggesting search terms ==
 
 The other special wiki entry is named Index. If present, it should be a flat bulleted list of index terms.  The documentation reader will collect and collate the index terms for all the projects displayed; when a user selects an index term, the reader will search for any pages containing that term and display the results.  This is equivalent to the user typing a search keyword, but may be useful if the user doesn't know what term to search for, or if the user is (as some of us do) browsing the index itself for interesting items.
 
