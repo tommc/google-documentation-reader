@@ -34,7 +34,7 @@ This will create a section titled "Title for Wiki Word entry," and linking to th
 
 {{{  * Title for a section heading without its own wiki entry }}}
 
-Which will, as the title suggests, make an entry which is the heading of a collection of ohter entries, but for which there is no content in the wiki.  To display these nodes, the documentation reader will create a page that consists only of the title and a list of the available children.
+Which will, as the title suggests, make an entry which is the heading of a collection of other entries, but for which there is no content in the wiki.  To display these nodes, the documentation reader will create a page that consists only of the title and a list of the available children.
 
 == Index: suggesting search terms ==
 
