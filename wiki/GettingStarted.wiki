@@ -47,11 +47,7 @@ even if the navigation area is collapsed.
 
 And, of course, the main documentation itself will usually contain links.  Most
 links will go to other documentation sections, and will also cause the 
-selection in the Contents tab to be updated.  A few links may be external, and 
-marked with a 
-"[http://google-documentation-reader.googlecode.com/svn/wiki/images/extlink.png]"
-icon.  These will leave the documentation for some other site.  In the case 
-here, it takes you to another site showing running example code.
+selection in the Contents tab to be updated.  Other links will leave the documentation for some other site -- no worries, though, you can always hit "back" to come back to your previous state.  In the case here, it takes you to another site showing running example code.
 
 [http://google-documentation-reader.googlecode.com/svn/wiki/images/viewing.png]
 
@@ -69,17 +65,10 @@ your search term, but to other containing sections as well.
 
 = Using the Index =
 
-In many respects, the index is just a collection of what the authors of the
-various projects' documentation thought might be useful search terms.  When 
-you select the Index tab in the navigation area, you see a list of index links,
-and clicking one of those will run a search for that term exactly as though you
+The index is a collection of useful search terms put together by the what the authors of a given project. When you select the Index tab in the navigation area, you see a list of index links. Clicking one of those will run a search for that term exactly as though you
 had typed it into the search box in the header area.
 
-Given this equivalence, the primary value of the index is precisely that it
-can _suggest_ search terms.  If you are looking for a concept, but really just
-don't know what it is called, try looking in the index.  At the very least,
-you may find something interesting or something that you're not sure what is, 
-even if you _do_ have some ideas of search terms for a free-text search!
+The value of the index is that it _suggests_ search terms you might not think to look for.  If you are looking for a concept but don't know what it is called, try looking in the index. You may find something interesting, even if you _do_ have some ideas of search terms for a free-text search!
 
 The box labelled "Filter" above the keywords is useful when you have a very
 large index, especially one from multiple projects merged together.  If you
