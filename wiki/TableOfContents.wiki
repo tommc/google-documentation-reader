@@ -8,7 +8,6 @@ The documentation reader provides an easy way to organize technical reference do
   * [GettingStarted Getting Started]
   * [TipsForReaders For Readers]
   * [TipsForAuthors For Authors]
-  * Technical Notes
-     * [UrlFormat URL Format]
-     * [SupportedBrowsers Supported Browsers]
+  * [UrlFormat URL Format]
+  * [SupportedBrowsers Supported Browsers]
   * [FAQ FAQ]
