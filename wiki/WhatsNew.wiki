@@ -2,7 +2,7 @@
 = What's New for Google Code documentation reader? =
 
 == August 28 2009 ==
-To correspond with the launch of [http://code.google.com/docreader/#p=google-web-toolkit-1-5 Google Web Toolkit 1.5], we've revamped the documentation reader. You may notice some improvements, including faster load times, a cleaner UI, and better handling of links in documents, and a [UrlFormat new format for URLs] (the old one still works too!). Hopefully, though, the interface will get right out of the way and you can just read the documents you want :)
+To correspond with the launch of [http://code.google.com/docreader/#p=google-web-toolkit-doc-1-5 Google Web Toolkit 1.5], we've revamped the documentation reader. You may notice some improvements, including faster load times, a cleaner UI, and better handling of links in documents, and a [UrlFormat new format for URLs] (the old one still works too!). Hopefully, though, the interface will get right out of the way and you can just read the documents you want :)
 
 == May 15, 2008 ==
 [http://code.google.com/doctype Google Doctype] is now live and using the documentation reader! Welcome, Doctype users :)
