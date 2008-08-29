@@ -1,5 +1,7 @@
 #summary Notifications of what's in the most recent update for google documentation reader
-= What's New for Google Code documentation reader? =
+== What's New for Google Code documentation reader? ==
+
+These are notes about the [http://code.google.com/docreader/#p=google-documentation-reader Google Code documentation reader], the interface you've been using to read documentation on Google Code.
 
 == August 28 2009 ==
 To correspond with the launch of [http://code.google.com/docreader/#p=google-web-toolkit-doc-1-5 Google Web Toolkit 1.5], we've revamped the documentation reader. You may notice some improvements, including faster load times, a cleaner UI, and better handling of links in documents, and a [UrlFormat new format for URLs] (the old one still works too!). Hopefully, though, the interface will get right out of the way and you can just read the documents you want :)
