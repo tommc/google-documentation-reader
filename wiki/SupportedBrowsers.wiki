@@ -5,5 +5,6 @@ We expect the documentation reader to work with any modern browser.  We specific
   * Firefox 2 and 3 (Linux, Mac, and Windows)
   * Safari 3 (Mac)
   * Opera 9.5 (Mac and Windows)
+  * Google Chrome
 
-If you have any problems, though -- [http://code.google.com/p/google-documentation-reader/issues/list put in a bug report].
+If you have any problems, though, feel free to [http://code.google.com/p/google-documentation-reader/issues/list put in a bug report].
