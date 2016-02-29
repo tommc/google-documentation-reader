@@ -1,0 +1,7 @@
+Reading web-based developer documentation is different than browsing typical web pages. As a developer, you probably refer to key technical doc many times per day, and you want it well-organized, easy to navigate, and -- above all -- fast. We're in the same boat! So we built a documentation viewer specially tailored for reading technical documentation. It works with any open source project [hosted on Google Code](http://code.google.com/hosting/).
+
+You can use this documentation viewer as an easy way to read and author structured technical documentation. It builds on the existing wiki functionality available to every project hosted on Google Code. In addition to Google search, authors can easily define a table of contents and a list of index terms for their projects, providing readers with several ways to explore and understand complex technical material.
+
+The structure of the documentation view helps readers quickly browse project documentation using a pleasant, unobtrusive user interface, designed with easy keyboard navigation, bookmarking and printing in mind. You can even combine projects together into a single documentation view by [adjusting the URL](UrlFormat.md) to specify multiple projects, so you can look at several tables of contents, index entries, and search results all at once.
+
+Drill down for more details. Happy reading and writing!
